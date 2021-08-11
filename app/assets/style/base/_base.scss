@@ -1,0 +1,23 @@
+body{
+  font-family: $font-family;
+}
+
+a {
+  text-decoration: none;
+  transition: $anim-time;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+*, *::before, *::after{
+	box-sizing: border-box;
+}
+
+img, video{
+	vertical-align: middle;
+	max-width: 100%;
+	height: auto;
+}

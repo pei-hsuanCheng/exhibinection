@@ -250,16 +250,17 @@ $gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0)) !default;
 $spacer: 1rem !default;
 $spacers: (
   0: 0,
-  1: $spacer * .25,
-  2: $spacer * .5,
-  3: $spacer * .75,
-  4: $spacer,
-  5: $spacer * 1.25,
-  6: $spacer * 1.5,
-  7: $spacer * 1.75,
-  8: $spacer * 2,
-  9: $spacer * 2.25,
-  10: $spacer * 2.5,
+  1: $spacer * .25,  // 4
+  2: $spacer * .5,   // 8
+  3: $spacer * .75,  // 12
+  4: $spacer,        // 16
+  5: $spacer * 1.25, // 20
+  6: $spacer * 1.5,  // 24
+  7: $spacer * 1.75, // 28
+  8: $spacer * 2,    // 32
+  9: $spacer * 2.25, // 36
+  10: $spacer * 2.5, // 40
+  11: $spacer * 3.75, //60
 ) !default;
 
 $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) !default;
@@ -290,7 +291,7 @@ $body-text-align:           null !default;
 //
 // Style anchor elements.
 
-$link-color:                              $primary !default;
+$link-color:                              $gray-700 !default;
 $link-decoration:                         underline !default;
 $link-shade-percentage:                   20% !default;
 $link-hover-color:                        shift-color($link-color, $link-shade-percentage) !default;
@@ -456,13 +457,13 @@ $h6-font-size:                $font-size-base !default;
 
 // scss-docs-start font-sizes
 $font-sizes: (
-  1: $h1-font-size,
-  2: $h2-font-size,
-  3: $h3-font-size,
-  4: $h4-font-size,
-  5: $font-size-base * 1.375,
-  6: $h5-font-size,
-  7: $h6-font-size,
+  1: $h1-font-size, // 40
+  2: $h2-font-size, // 32
+  3: $h3-font-size, // 28
+  4: $h4-font-size, // 24
+  5: $font-size-base * 1.375, // 22
+  6: $h5-font-size, // 20
+  7: $h6-font-size, // 16
 ) !default;
 // scss-docs-end font-sizes
 

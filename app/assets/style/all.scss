@@ -1,7 +1,15 @@
 @import "../../../node_modules/bootstrap/scss/functions";
 @import "./helpers/variables";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../../node_modules/swiper/swiper-bundle";
 @import "util/_variables";
+@import "util/_mixin";
+@import "util/_util";
 @import "base/_base";
 
-@import './layout/header.scss'
+@import "component/_icon";
+@import "component/_swiper";
+@import "component/_banner";
+@import './layout/_header.scss';
+@import './layout/_footer.scss';
+@import './page/_index.scss';

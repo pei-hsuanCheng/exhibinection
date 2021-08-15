@@ -1,0 +1,19 @@
+.bg-primary-o {
+  background-color: rgba($primary, 0.8);
+}
+
+.img-fit-cover{
+  @include img-object-fit(cover);
+}
+
+.img-fit-contain{
+  @include img-object-fit(contain);
+}
+
+.h-480 {
+  height: 480px;
+}
+
+.h-350 {
+  height: 350px;
+}

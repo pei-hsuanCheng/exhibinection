@@ -1,0 +1,10 @@
+.decoration{
+  &::before {
+    content: "";
+    background-color: white;
+    margin: 0 12px;
+    height: 42px;
+    width: 1px;
+    display: inline-block;
+  }
+}

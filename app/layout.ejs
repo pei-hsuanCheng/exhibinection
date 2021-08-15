@@ -15,20 +15,20 @@
 
   <body>
     <header class="header container py-7 border-1">
-      <div class="row">
+      <div class="row align-items-center">
         <div class="col-3"></div>
-        <h1 class="col-6 text-primary text-center">EXHIBINECTION</h1>
-        <ul class="col-3 d-flex justify-content-between">
-          <li><button>Sign in</button></li>
-          <li><button>Sign up</button></li>
+        <h1 class="col-6 text-primary text-center mb-0">EXHIBINECTION</h1>
+        <ul class="col-3 d-flex justify-content-between align-items-center mb-0">
+          <li><button class="btn btn-link text-decoration-none">Sign in</button></li>
+          <li><button class="btn btn-link text-decoration-none">Sign up</button></li>
           <li>
-            <button>
+            <button class="btn position-relative p-0 lh-1">
               <span class="material-icons text-dark">
                 savings
               </span>
               <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                 3
-              <span class="visually-hidden">shopping bag</span>
+                <span class="visually-hidden">shopping bag</span>
               </span>
             </button>
           </li>
@@ -39,9 +39,28 @@
     <%- contents %>
 
     <footer class="footer">
-      footer
+      <section class="footer-ad p-9">
+        <div class="container row h-100 align-items-end">
+          <div class="col-4">
+            <h2 class="text-white fs-8 mb-3 lh-base">想收到最新消息嗎？<br/>快訂閱我們！</h2>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="輸入您的電子信箱">
+              <button class="btn btn-secondary px-10">訂閱</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container d-flex justify-content-between py-7">
+        <div class="d-flex align-items-end">
+          <h6 class="fs-4 me-4 mb-0">EXHIBINECTION</h6>
+          <small class="fs-7">© 2020. All Rights Reserved.</small>
+        </div>
+        <ul class="d-flex mb-0 p-0">
+          <li><button class="btn btn-link text-decoration-none p-0 me-6">Sign in</button></li>
+          <li><button class="btn btn-link text-decoration-none p-0">Sign up</button></li>
+        </ul>
+      </section>
     </footer>
-
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
   </body>

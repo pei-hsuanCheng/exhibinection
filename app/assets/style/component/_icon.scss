@@ -1,0 +1,14 @@
+.icon {
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-size: 100% auto;
+
+    &-fb {
+      background-image: url("https://hexschool.github.io/webLayoutTraining1st/exhibition-week6/facebook-24px.svg");
+    }
+  }
+}

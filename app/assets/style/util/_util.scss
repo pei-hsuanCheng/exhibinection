@@ -17,3 +17,17 @@
 .h-350 {
   height: 350px;
 }
+
+.z-index-back {
+  z-index: -1;
+}
+
+.m--1{
+  margin: $container-padding-x * -1 !important;
+}
+
+@include media-breakpoint-up(md) {
+  .fs-md-6{
+    font-size: $h5-font-size !important;
+  }
+}

@@ -2,13 +2,11 @@
   &::before {
     content: "";
     display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-position: center;
+    width: 24px;
+    height: 24px;
+  }
+  &-fb {
+    background: url("https://hexschool.github.io/webLayoutTraining1st/exhibition-week6/facebook-24px.svg") no-repeat center;
     background-size: 100% auto;
-
-    &-fb {
-      background-image: url("https://hexschool.github.io/webLayoutTraining1st/exhibition-week6/facebook-24px.svg");
-    }
   }
 }

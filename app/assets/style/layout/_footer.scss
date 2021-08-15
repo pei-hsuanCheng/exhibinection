@@ -1,5 +1,8 @@
 .footer-ad {
   height: 400px;
-  background: url("https://hexschool.github.io/webLayoutTraining1st/exhibition-week6/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg") no-repeat left center;
-  background-size: 100% auto;
+  background: url("https://hexschool.github.io/webLayoutTraining1st/exhibition-week6/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg") no-repeat center center;
+  background-size: auto 100%;
+  @include media-breakpoint-up(md) {
+    background-size: 100% auto;
+  }
 }

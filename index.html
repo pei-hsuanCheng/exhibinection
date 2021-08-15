@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Boostrap Index</title>
+    <title>EXHIBINECTION - 首頁</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -14,101 +14,261 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
+    <header class="header container py-7 border-1">
+      <div class="row align-items-center">
+        <div class="col-3"></div>
+        <h1 class="col-6 text-primary text-center mb-0">EXHIBINECTION</h1>
+        <ul class="col-3 d-flex justify-content-md-between justify-content-end align-items-center mb-0">
+          <li class="d-md-block d-none"><button class="btn btn-link text-decoration-none">Sign in</button></li>
+          <li class="d-md-block d-none"><button class="btn btn-link text-decoration-none">Sign up</button></li>
+          <li>
+            <button class="btn position-relative p-0 lh-1">
+              <span class="material-icons text-dark">
+                savings
+              </span>
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                3
+                <span class="visually-hidden">shopping bag</span>
+              </span>
+            </button>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </header>
 
     
-<div class="container">
-  <h1 class="index__h1">這是一段話</h1>
-  <div class="alert alert-primary" role="alert">
-    A simple primary alert—check it out!
-  </div>
-  <div class="alert alert-secondary" role="alert">
-    A simple secondary alert—check it out!
-  </div>
-  <div class="alert alert-success" role="alert">
-    A simple success alert—check it out!
-  </div>
-  <div class="alert alert-danger" role="alert">
-    A simple danger alert—check it out!
-  </div>
-  <div class="alert alert-warning" role="alert">
-    A simple warning alert—check it out!
-  </div>
-  <div class="alert alert-info" role="alert">
-    A simple info alert—check it out!
-  </div>
-  <div class="alert alert-light" role="alert">
-    A simple light alert—check it out!
-  </div>
-  <div class="alert alert-dark" role="alert">
-    A simple dark alert—check it out!
-  </div>
-</div>
-
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+<article class="banner d-flex align-items-md-center align-items-end h-480">
+  <img class="banner-img" src="https://hexschool.github.io/webLayoutTraining1st/exhibition-week6/ricardo-gomez-angel-UrOZTfXT0h0-unsplash%20(1).jpg" alt="Taipei Morden Art Exhibition" />
+  <div class="container position-absolute mb-12 mb-md-0">
+    <div class="row justify-content-md-end align-items-center">
+      <div class="col-11">
+        <h3 class="fw-bold text-white">台北當代藝術展</h3>
+        <p class="fw-bold text-white">01 JUN - 31 OCT</p>
+        <div>
+          <button class="btn btn-secondary px-10 me-2">購買票券</button>
+          <button class="btn btn-outline-light px-10">詳細資訊</button>
+        </div>
       </div>
     </div>
   </div>
+</article>
+<nav class="nav border border-1">
+  <ul class="container d-flex mb-0 justify-content-evenly">
+    <li><a class="nav-link p-4" href="#">音樂</a></li>
+    <li><a class="nav-link p-4" href="#">戲劇</a></li>
+    <li><a class="nav-link p-4" href="#">設計</a></li>
+    <li><a class="nav-link p-4" href="#">藝術</a></li>
+    <li><a class="nav-link p-4" href="#">美食</a></li>
+    <li><a class="nav-link p-4" href="#">旅遊</a></li>
+    <li><a class="nav-link p-4" href="#">電影</a></li>
+    <li><a class="nav-link p-4" href="#">親子</a></li>
+    <li><a class="nav-link p-4" href="#">期間限定</a></li>
+  </ul>
+</nav>
+<div class="container mt-10">
+  <article class="mb-11">
+    <h2 class="fw-bold mb-6">熱門特展</h2>
+    <div class="m--1 m-md-0">
+      <div class="card mb-5 rounded-0 border-0 bg-light px-6 px-md-0 py-4 py-md-0">
+        <div class="row g-0 h-100">
+          <div class="col-md-4">
+            <img class="img-fit-cover h-350" src="https://hexschool.github.io/webLayoutTraining1st/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg" alt="2020 台味設計展">
+          </div>
+          <div class="col-md-8 ps-md-6">
+            <div class="card-body d-flex flex-column justify-content-between h-100">
+              <div class="row justify-content-between">
+                <div class="col-md-9 col-12">
+                  <h3 class="card-title fw-bold fs-6 mb-1 d-flex justify-content-between align-items-center">
+                    <span>
+                      2020 台味設計展
+                      <i class="icon icon-fb d-inline-block d-md-none"></i>
+                    </span>
+                    <p class="fs-7 fw-bold d-block d-md-none mb-0">01 JUN — 31 OCT</p>
+                  </h3>
+                  <small class="fs-6 mb-2">$350</small>
+                  <p class="card-text mb-3 mb-md-0">一年一度的台味設計展由經濟部工業局主辦、台灣創意設計中心執行，每年，針對在地生活、文化及產業發展特色，運用設計思考詮釋新時代的意涵，並以展覽呈現在地設計。</p>
+                </div>
+                <p class="col-1 fw-bold d-none d-md-block">01 JUN |<br/> 31 OCT</p>
+              </div>
+              <div class="d-flex justify-content-between">
+                <div>
+                  <button class="btn btn-primary me-2">購買票券</button>
+                  <button class="btn btn-outline-primary">收藏展覽</button>
+                </div>
+                <i class="icon icon-fb d-none d-md-inline-block"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-5 rounded-0 border-0 bg-light px-6 px-md-0 py-4 py-md-0">
+        <div class="row g-0 h-100">
+          <div class="col-md-4">
+            <img class="img-fit-cover h-350" src="https://hexschool.github.io/webLayoutTraining1st/exhibition-week6/michel-catalisano--a0D9LpcKV8-unsplash.jpg" alt="No.22 線上設計展">
+          </div>
+          <div class="col-md-8 bg-light ps-md-6">
+            <div class="card-body d-flex flex-column justify-content-between h-100">
+              <div class="row justify-content-between">
+                <div class="col-md-9 col-12">
+                  <h3 class="card-title fw-bold fs-6 mb-1 d-flex justify-content-between align-items-center">
+                    <span>
+                      No.22 線上設計展
+                      <i class="icon icon-fb d-inline-block d-md-none"></i>
+                    </span>
+                    <p class="fs-7 fw-bold d-block d-md-none mb-0">01 JUN — 31 OCT</p>
+                  </h3>
+                  <small class="fs-6 mb-2">$350</small>
+                  <p class="card-text mb-3 mb-md-0">這是一個專屬於設計系畢業生的展覽，沒有華麗的名號、沒有浮誇的獎賞。讓我們用作品與理念，去碰撞真實世界裡的各種問題，創造更多美好的人事物。讓這個地球、這個世界變成每一個人心目中的理想鄉。</p>
+                </div>
+                <p class="col-1 fw-bold d-none d-md-block">01 JUN |<br/> 31 OCT</p>
+              </div>
+              <div class="d-flex justify-content-between">
+                <div>
+                  <button class="btn btn-primary me-2">購買票券</button>
+                  <button class="btn btn-outline-primary">收藏展覽</button>
+                </div>
+                <i class="icon icon-fb d-none d-md-inline-block"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-5 rounded-0 border-0 bg-light px-6 px-md-0 py-4 py-md-00">
+        <div class="row g-0 h-100">
+          <div class="col-md-4">
+            <img class="img-fit-cover h-350" src="https://hexschool.github.io/webLayoutTraining1st/exhibition-week6/moralis-tsai-8xsktFRw28I-unsplash.jpg" alt="高雄設計節">
+          </div>
+          <div class="col-md-8 bg-light ps-md-6">
+            <div class="card-body d-flex flex-column justify-content-between h-100">
+              <div class="row justify-content-between">
+                <div class="col-md-9 col-12">
+                  <h3 class="card-title fw-bold fs-6 mb-1 d-flex justify-content-between align-items-center">
+                    <span>
+                      高雄設計節
+                      <i class="icon icon-fb d-inline-block d-md-none"></i>
+                    </span>
+                    <p class="fs-7 fw-bold d-block d-md-none mb-0">01 JUN — 31 OCT</p>
+                  </h3>
+                  <small class="fs-6 mb-2">$350</small>
+                  <p class="card-text mb-3 mb-md-0">設計大高雄究竟是怎麼一回事？在這「設計」詞彙有點氾濫的年代，或許我們也搞不清楚究竟誰被誰設計了，設計生活？還是被生活設計？而當高雄這座城市建設硬體已相當程度完備時，文化軟實力又該如何輸出？</p>
+                </div>
+                <p class="col-1 fw-bold d-none d-md-block">01 JUN |<br/> 31 OCT</p>
+              </div>
+              <div class="d-flex justify-content-between">
+                <div>
+                  <button class="btn btn-primary me-2">購買票券</button>
+                  <button class="btn btn-outline-primary">收藏展覽</button>
+                </div>
+                <i class="icon icon-fb d-none d-md-inline-block"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  <article class="mb-11">
+    <h2 class="fw-bold mb-6">直播回顧</h2>
+    <div class="position-relative mb-5 text-white">
+      <img class="img-fit-cover position-absolute z-index-back" src="https://hexschool.github.io/webLayoutTraining1st/exhibition-week6/people2.png" alt="2020 台味設計展">
+      <div class="col-lg-5 col-md-6 bg-primary-o px-6 py-10">
+        <h3 class="fw-bold d-flex align-items-center mb-8">
+          開幕對談<span class="decoration"></span>藝術展演巡禮
+        </h3>
+        <img class="mb-3" src="https://hexschool.github.io/webLayoutTraining1st/exhibition-week6/people.png" alt="臺北現代聯合總監｜Ken Hsu" />
+        <h6 class="fs-6 mb-2">臺北現代聯合總監｜Ken Hsu</h6>
+        <p class="fs-7 fs-md-6 mb-4">獨家由藝術家、策展人、畫廊總監帶您欣賞台北藝術特展，感受雕塑、展演及當代日常文化之間微妙的關係。</p>
+        <button class="btn btn-secondary">點此觀看</button>
+      </div>
+    </div>
+  </article>
+  <article class="mb-11">
+    <h2 class="fw-bold mb-6">猜你也喜歡...</h2>
+    <div class="container row justify-content-end d-md-block d-none">
+      <div class="col-md-11">
+        <div class="swiper-container mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card border-0">
+                <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/ricardo-gomez-angel-WxpnuLzqZN4-unsplash.jpg?raw=true" class="card-img-top rounded-0 mb-1" alt="...">
+                <div class="card-body p-0">
+                  <h5 class="card-title fw-bold">No.22 線上設計展</h5>
+                  <p class="card-text fs-6">$350</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card border-0">
+                <img src="https://hexschool.github.io/webLayoutTraining1st/exhibition-week6/museums-victoria-kiDwVL_5ZBY-unsplash%20(1).jpg" class="card-img-top rounded-0 mb-1" alt="...">
+                <div class="card-body p-0">
+                  <h5 class="card-title fw-bold">No.22 線上設計展</h5>
+                  <p class="card-text fs-6">$350</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card border-0">
+                <img src="https://hexschool.github.io/webLayoutTraining1st/exhibition-week6/petri-heiskanen-bR9gFJqAnzA-unsplash.jpg" class="card-img-top rounded-0 mb-1" alt="...">
+                <div class="card-body p-0">
+                  <h5 class="card-title fw-bold">No.22 線上設計展</h5>
+                  <p class="card-text fs-6">$350</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-md-none d-sm-block">
+      <div class="card border-0">
+        <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/ricardo-gomez-angel-WxpnuLzqZN4-unsplash.jpg?raw=true" class="card-img-top rounded-0 mb-1" alt="...">
+        <div class="card-body p-0">
+          <h5 class="card-title fw-bold">No.22 線上設計展</h5>
+          <p class="card-text fs-6">$350</p>
+        </div>
+      </div>
+      <div class="card border-0">
+        <img src="https://hexschool.github.io/webLayoutTraining1st/exhibition-week6/museums-victoria-kiDwVL_5ZBY-unsplash%20(1).jpg" class="card-img-top rounded-0 mb-1" alt="...">
+        <div class="card-body p-0">
+          <h5 class="card-title fw-bold">No.22 線上設計展</h5>
+          <p class="card-text fs-6">$350</p>
+        </div>
+      </div>
+      <div class="card border-0">
+        <img src="https://hexschool.github.io/webLayoutTraining1st/exhibition-week6/petri-heiskanen-bR9gFJqAnzA-unsplash.jpg" class="card-img-top rounded-0 mb-1" alt="...">
+        <div class="card-body p-0">
+          <h5 class="card-title fw-bold">No.22 線上設計展</h5>
+          <p class="card-text fs-6">$350</p>
+        </div>
+      </div>
+    </div>
+  </article>
 </div>
 
 
     <footer class="footer">
-      footer
+      <section class="footer-ad p-md-9">
+        <div class="container row h-100 align-items-end">
+          <div class="col-md-4 col-12 mb-md-0 mb-9">
+            <h2 class="text-white fs-8 mb-3 lh-base">想收到最新消息嗎？<br/>快訂閱我們！</h2>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="輸入您的電子信箱">
+              <button class="btn btn-secondary px-10">訂閱</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container d-flex justify-content-between py-7">
+        <div class="d-flex align-items-md-end flex-column flex-row-md">
+          <h6 class="fs-4 me-4 mb-0">EXHIBINECTION</h6>
+          <small class="fs-7">© 2020. All Rights Reserved.</small>
+        </div>
+        <ul class="d-flex mb-0 p-0 d-none d-md-block">
+          <li><button class="btn btn-link text-decoration-none p-0 me-6">Sign in</button></li>
+          <li><button class="btn btn-link text-decoration-none p-0">Sign up</button></li>
+        </ul>
+      </section>
     </footer>
-
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
   </body>

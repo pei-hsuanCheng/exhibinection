@@ -14956,6 +14956,11 @@ img, video {
      object-fit: cover;
 }
 
+.nav {
+  height: 3.5rem;
+  overflow-y: hidden;
+}
+
 .nav ul {
   overflow-x: scroll;
   white-space: nowrap;

@@ -18,16 +18,26 @@
   height: 350px;
 }
 
-.z-index-back {
-  z-index: -1;
+.mh-350 {
+  min-height: 350px;
 }
 
-.m--1{
-  margin: $container-padding-x * -1 !important;
+.z-index-back {
+  z-index: -1;
 }
 
 @include media-breakpoint-up(md) {
   .fs-md-6{
     font-size: $h5-font-size !important;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .m-xs--1 {
+    margin: $container-padding-x * -1 !important;
+  }
+
+  .w-xs-50 {
+    width: 50%;
   }
 }

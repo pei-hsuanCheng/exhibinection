@@ -14878,17 +14878,26 @@ button.swiper-pagination-bullet {
   height: 350px;
 }
 
-.z-index-back {
-  z-index: -1;
+.mh-350 {
+  min-height: 350px;
 }
 
-.m--1 {
-  margin: -0.75rem !important;
+.z-index-back {
+  z-index: -1;
 }
 
 @media (min-width: 768px) {
   .fs-md-6 {
     font-size: 1.25rem !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .m-xs--1 {
+    margin: -0.75rem !important;
+  }
+  .w-xs-50 {
+    width: 50%;
   }
 }
 
@@ -14906,13 +14915,6 @@ a {
 ul,
 li {
   list-style: none;
-}
-
-*,
-*::before,
-*::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 img, video {
